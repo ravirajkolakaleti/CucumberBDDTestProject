@@ -17,8 +17,8 @@ Scenario: Successful in creating an user account
     
     Examples:
     | email                  | dobDay | dobMonth | dobYear |
-    | rrk18kola@gmail.com   | 15     | April    | 1995    |
-    | rasya.kola124@gmail.com | 20     | June     | 2000    |
+    | rrk383kola@gmail.com   | 15     | April    | 1995    |
+    
 
 @Sanity
 Scenario: Validate Error Message in creating an user account

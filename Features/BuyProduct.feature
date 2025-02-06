@@ -56,6 +56,7 @@ Feature: Buy Product
     Then Page title should be "Search - My Shop"
     When user clicks on Blouse image
     And user selects the size "<size>"
+    And user click on White Color
     Then verify that In stock text is displayed
     When user clicks on Add to Cart button
     Then verify the successful message is displayed

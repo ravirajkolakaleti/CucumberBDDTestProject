@@ -45,6 +45,8 @@ public class ProductPage {
 	@FindBy(id="color_13")
 	WebElement color;
 	
+	@FindBy(id="color_8")
+	WebElement colorWhite;
 	@FindBy(xpath="//span[normalize-space()='Add to cart']")
 	WebElement addToCartBtn;
 	
@@ -111,6 +113,12 @@ public class ProductPage {
 		
 		color.click();
 	}
+	
+public void clickOnColorWhite() {
+		
+		colorWhite.click();
+	}
+	
 	
 	public void clickOnAddToCartButton() {
 		addToCartBtn.click();

@@ -431,6 +431,15 @@ public class StepDef {
 	    Thread.sleep(5000);
 	    test.log(Status.PASS, "Clicked On Orange Color Icon");
 	}
+	
+	@Then("user click on White Color")
+	public void user_click_on_white_color() throws InterruptedException {
+		
+		productPg.clickOnColorWhite();
+	    Thread.sleep(5000);
+	    test.log(Status.PASS, "Clicked On White Color Icon");
+	}
+	
 	@When("User clicks on Printed Summer Dress in the left panel")
     public void user_clicks_on_printed_summer_dress_in_left_panel() {
 		productPg.clickPrintedSummerDressFilter();
