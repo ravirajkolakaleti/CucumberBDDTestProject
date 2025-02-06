@@ -13,7 +13,7 @@ import io.cucumber.testng.AbstractTestNGCucumberTests;
 //@RunWith(Cucumber.class)
 @CucumberOptions(
 		
-		features = "Features/OrderHistory.feature", 
+		features = "Features", 
 		glue= {"StepDefinition"},
 		dryRun = false,
 		monochrome = true,
